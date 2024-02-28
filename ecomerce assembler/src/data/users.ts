@@ -4,10 +4,10 @@ export const users: user[] = [
       {
         id: 1,
         name: "Juan",
-        password: "RandomPassword123!",
-        email: "random_user_123@example.com",
+        password: "123",
+        email: "example@example.com",
         cart: [
-            '1','2'
+            '2','3'
         ],//product Ids
         wishlist: [
             '1','2','4'
@@ -19,7 +19,7 @@ export const users: user[] = [
         password: "RandomPassword123!",
         email: "random_user_123@example.com",
         cart: [
-            '5'
+            '1'
         ],//product Ids
         wishlist: [
             '3','4'

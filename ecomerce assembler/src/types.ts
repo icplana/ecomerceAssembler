@@ -30,3 +30,8 @@ export interface user {
     cart: string[]
     wishlist: string[]
 }
+
+export interface AuthContextType {
+    signedIn: {status: boolean, id: number | null, card: null | []};
+    setSignedIn: (value: {status: boolean, id: number | null, card: null | []}) => void;
+}
